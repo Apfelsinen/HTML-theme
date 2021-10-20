@@ -67,6 +67,14 @@ body{
     padding: 0 10px;
 }
 
+.title{
+    font-family: 'spaceagecyrillic';
+    padding: 100px 0;
+    font-size: 48px;
+    line-height: 48px;
+    font-weight: 400;
+}
+
 .header{
     background-image: url(../images/header-bg.jpg);
     /* min-height: 100vh; used in .header__inner*/
@@ -171,4 +179,27 @@ body{
 
 .header__description-text + .header__description-text{
     margin-left: 52px;
+}
+
+.about{
+    background-image: url("../images/about-bg.jpg");
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.about__item{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-bottom: 150px;
+}
+
+.about__img{
+    min-width: 100%;
+}
+
+.about__content{
+
 }
