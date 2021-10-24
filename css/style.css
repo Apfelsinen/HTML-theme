@@ -197,9 +197,24 @@ body{
 }
 
 .about__img{
-    min-width: 100%;
+    max-width: 100%;
 }
 
 .about__content{
-    color: #0d95e8;
+    width: 600px;
+}
+
+.about__content-title{
+    font-size: 30px;
+    line-height: 26px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.about__content-subtitle{
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: 400;
+    color: #036cca;
+    margin-bottom: 30px;
 }
