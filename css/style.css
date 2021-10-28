@@ -266,3 +266,10 @@ body{
     line-height: 17px;
     display: block;
 }
+.how-to{
+    background-image: url(../images/howto-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    padding-bottom: 100px;
+}
