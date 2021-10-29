@@ -273,3 +273,14 @@ body{
     background-size: cover;
     padding-bottom: 100px;
 }
+.how-to__box{
+    text-align: center;
+}
+.how-to__box circle:hover{
+    transition: all .5s;
+    cursor: pointer;
+}
+.how-to__box circle:hover{
+    r: 20px;
+    fill: #036cca;
+}
