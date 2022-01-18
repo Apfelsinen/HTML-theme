@@ -43,7 +43,19 @@ body {
 
 /* USER STYLES */
 
-.image {
+body, html {
+	height: 100%;
+}
+
+.showcase {
+	background-color: black;
+	height: 100%;
+	position: relative;
+	color: white;
+	overflow: hidden;
+}
+
+/* .image {
 	max-width: 100%;
 	margin-bottom: var(--bs-gutter-x);
 	border-radius: 4px;
@@ -52,4 +64,4 @@ body {
 .accent {
 	color: var(--accent);
 	font-weight: bold;
-}
+} */
