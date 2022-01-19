@@ -54,6 +54,11 @@ body, html {
 	color: white;
 	overflow: hidden;
 }
+.showcase__video {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
 
 /* .image {
 	max-width: 100%;
