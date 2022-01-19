@@ -1,5 +1,7 @@
 document.addEventListener('DOMContentLoaded', function() {
 
-	// $('body').hide()
+	// carusel section
+
+	document.querySelector('video').playbackRate = 2
 
 })

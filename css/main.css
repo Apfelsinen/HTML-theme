@@ -54,6 +54,14 @@ body, html {
 	color: white;
 	overflow: hidden;
 }
+.showcase::before {
+	content: '';
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	z-index: 1;
+	box-shadow: inset 0 0 500px black;
+}
 .showcase__video {
 	position: absolute;
 	top: 0;
