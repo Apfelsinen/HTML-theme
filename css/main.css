@@ -104,7 +104,19 @@ body, html {
 	background-size: cover;
 	animation: k-glow 1.8s ease-in-out infinite;
 }
-
+.showcase__header {
+	position: absolute;
+	text-align: center;
+	width: 100%;
+	z-index: 1;
+	top: 40px;
+	font-family: assassin-st, sans-serif;
+	font-size: 32px;
+	color: rgba(255, 255, 255, .75);
+}
+.showcase__header span {
+	color: var(--accent);
+}
 /* ANIMATIONS */
 
 @keyframes k-light {
