@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', function() {
 
 	// carusel section
-	const showSlider = new Swiper('.showcase__carousel', {
+	const showSlider = new Swiper('.showcase-carousel', {
 		loop: true,
 		slidesPerView: 3,
 		speed: 1800
