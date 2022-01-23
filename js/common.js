@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function() {
 			nextEl: '.showcase-navigation__next',
 			prevEl: '.showcase-navigation__prev'
 		}
-	})
+	}) 
 	//video
 	document.querySelector('video').playbackRate = 2
 
