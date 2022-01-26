@@ -161,6 +161,7 @@ body, html {
 	perspective: 150px;
 	transform-style: preserve-3d;
 }
+
 .showcase-carousel__image {
 	position: absolute;
 	width: 100%;
