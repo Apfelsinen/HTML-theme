@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function() {
 			prevEl: '.showcase-navigation__prev'
 		}
 	})
-
+//Video
 	document.querySelector('video').playbackRate = 2
 
 })
