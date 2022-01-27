@@ -255,6 +255,7 @@ body, html {
 		opacity: .6;
 	}
 }
+
 @keyframes k-left-side {
 	0% {
 		transform: rotateY(-1deg) scaleX(.92);
